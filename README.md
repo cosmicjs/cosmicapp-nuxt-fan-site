@@ -1,7 +1,7 @@
 # Nuxt Fan Site
 This is a Nuxt App built using Cosmic as it's Headless CMS.  It utilizes Apollo to access the [Cosmic](https://www.cosmicjs.com) GraphQL API.  It uses Tailwind CSS as the CSS framework.  It utilizes Cosmic's built in integration with [imgix](https://imgix.com) to build out responsive images as well as advanced use cases for og image optimization, and blending with text. 
 
-There is a [video tutorial](https://youtu.be/YYMptR7Fpn4) which was done by Tony Spiro (CEO at Cosmic) and Tom Dale (Head of Customer Success at imgix). There is also an accompanying [App in the Cosmic Marketplace](https://www.cosmicjs.com/apps/nuxt-fan-site-with-responsive-images) and [live demo](https://cosmic-loki.vercel.app/).
+There is a [video tutorial](https://youtu.be/YYMptR7Fpn4) which was done by Tony Spiro (CEO at Cosmic) and Tom Dale (Head of Customer Success at imgix). There is also an accompanying [App in the Cosmic Marketplace](https://www.cosmicjs.com/apps/nuxt-fan-site-with-responsive-images) and [live demo](https://cosmicapp-nuxt-fan-site.vercel.app/).
 
 ## Getting Started
 Take the following steps to get your fan site up and running locally connected to Cosmic:
@@ -260,7 +260,7 @@ Now if you go to the actual SocialHead.vue component file, you will see that it 
             },
 ```
 
-Once you publish your app, you can test the pages to see their social share content is working.  I like to use the [Twitter Validator](https://cards-dev.twitter.com/validator) to do this.  If you enter a url from my demo site, like this one: https://cosmic-loki.vercel.app/episodes/journey-into-mystery, you will then see the twitter card I created:
+Once you publish your app, you can test the pages to see their social share content is working.  I like to use the [Twitter Validator](https://cards-dev.twitter.com/validator) to do this.  If you enter a url from my demo site, like this one:https://cosmicapp-nuxt-fan-site.vercel.app/episodes/journey-into-mystery, you will then see the twitter card I created:
 
 <img src="https://tom.imgix.net/twitter_validator.png?w=600&auto=format">
 
