@@ -1,5 +1,5 @@
 # Nuxt Fan Site
-This is a Nuxt App built using Cosmic as it's Headless CMS.  It utilizes Apollo to access the [Cosmic](https://www.cosmicjs.com) GraphQL API.  It uses Tailwind CSS as the CSS framework.  It utilizes Cosmic's built in integration with [imgix](https://imgix.com) to build out responsive images as well as advanced use cases for og image optimization, and blending with text. 
+This is a Nuxt App built using Cosmic as its Headless CMS.  It utilizes Apollo to access the [Cosmic](https://www.cosmicjs.com) GraphQL API.  It uses Tailwind CSS as the CSS framework.  It utilizes Cosmic's built in integration with [imgix](https://imgix.com) to build out responsive images as well as advanced use cases for og image optimization, and blending with text. 
 
 There is a [video tutorial](https://youtu.be/YYMptR7Fpn4) which was done by Tony Spiro (CEO at Cosmic) and Tom Dale (Head of Customer Success at imgix). There is also an accompanying [App in the Cosmic Marketplace](https://www.cosmicjs.com/apps/nuxt-fan-site-with-responsive-images) and [live demo](https://cosmicapp-nuxt-fan-site.vercel.app/).
 
@@ -14,7 +14,7 @@ git clone https://github.com/cosmicjs/cosmicapp-nuxt-fan-site
 4. Using the terminal, cd into your app, install dependancies, and start your app.
 ```
 cd cosmicapp-nuxt-fan-site
-yarn
+yarnr
 yarn dev
 ```
 Your fan site should now be running at `http://localhost:3000`! Go into your Cosmic dashboard and edit content to see it reflected on your application. Follow the steps below to add content from scratch and learn more about this application.
