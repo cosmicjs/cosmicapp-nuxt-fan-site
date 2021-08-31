@@ -1,5 +1,23 @@
-# cosmic-nuxt-fan-site
-This is a Nuxt App built using Cosmic as it's Headless CMS.  It utilizes Apollo to access the Cosmic v3 Graph QL.  It uses Tailwind CSS as the css framework.  It utilizes Cosmic's built integration with imgix to build out responsive images as well as advanced use cases for og image optimization, and blending with text.  There is a [tutorial video](https://youtu.be/YYMptR7Fpn4) which was done by Tony Spiro (CEO at Cosmic) and Tom Dale (Head of Customer Success at imgix).  There is also an accompanying App in the [Cosmic Marketplace](https://www.cosmicjs.com/apps/nuxt-fan-site-with-responsive-images). Live [demo](https://cosmic-loki.vercel.app/) is here.
+# Nuxt Fan Site
+This is a Nuxt App built using Cosmic as it's Headless CMS.  It utilizes Apollo to access the [Cosmic](https://www.cosmicjs.com) GraphQL API.  It uses Tailwind CSS as the CSS framework.  It utilizes Cosmic's built in integration with [imgix](https://imgix.com) to build out responsive images as well as advanced use cases for og image optimization, and blending with text. 
+
+There is a [video tutorial](https://youtu.be/YYMptR7Fpn4) which was done by Tony Spiro (CEO at Cosmic) and Tom Dale (Head of Customer Success at imgix). There is also an accompanying [App in the Cosmic Marketplace](https://www.cosmicjs.com/apps/nuxt-fan-site-with-responsive-images) and [live demo](https://cosmic-loki.vercel.app/).
+
+## Getting Started
+Take the following steps to get your fan site up and running locally connected to Cosmic:
+1. [Log in to Cosmic](https://app.cosmicjs.com/login) and install the [Nuxt Fan Site](https://www.cosmicjs.com/apps/nuxt-fan-site-with-responsive-images) application which includes demo content.
+2. Clone this repository
+```
+git clone https://github.com/cosmicjs/cosmicapp-nuxt-fan-site
+```
+3. Add your `bucket_slug` and `read_key` info to the files in the folder `apollo/queries`. You can find these in your Cosmic dashboard in _Bucket Settings > API Access_.
+4. Using the terminal, cd into your app, install dependancies, and start your app.
+```
+cd cosmicapp-nuxt-fan-site
+yarn
+yarn dev
+```
+Your fan site should now be running at `http://localhost:3000`! Go into your Cosmic dashboard and edit content to see it reflected on your application. Follow the steps below to add content from scratch and learn more about this application.
 
 ## Adding Content to Cosmic
 
@@ -49,17 +67,17 @@ Here is an example of what one of the queries looks like:
     bucket_slug: "",
     read_key: "",
     input: {
-        query: { type: "episodes" }
+      query: { type: "episodes" }
     }
   ) {
-		objects {
+    objects {
       id
-	  content
-	  title
+      content
+      title
       metadata
       slug
-		}
     }
+  }
 }
 ```
 
@@ -83,13 +101,13 @@ Once you have filled in the bucket_slug and the read_key, your queries should lo
       type: "episodes"
     }
   }) {
-		objects {
-      id
-	  content
-	  title
-      metadata
-      slug
-		}
+      objects {
+        id
+	content
+	title
+        metadata
+        slug
+      }
     }
 }
 ```
