@@ -6,12 +6,12 @@ There is a [video tutorial](https://youtu.be/YYMptR7Fpn4) which was done by Tony
 ## Getting Started
 Take the following steps to get your fan site up and running locally connected to Cosmic:
 1. [Log in to Cosmic](https://app.cosmicjs.com/login) and install the [Nuxt Fan Site](https://www.cosmicjs.com/apps/nuxt-fan-site-with-responsive-images) application which includes demo content.
-3. Clone this repository
+2. Clone this repository
 ```
 git clone https://github.com/cosmicjs/cosmicapp-nuxt-fan-site
 ```
-2. Add your `bucket_slug` and `read_key` info to the files in the folder `apollo/queries`. You can find these in your Cosmic dashboard in _Bucket Settings > API Access_.
-3. Using the terminal, cd into your app, install dependancies, and start your app.
+3. Add your `bucket_slug` and `read_key` info to the files in the folder `apollo/queries`. You can find these in your Cosmic dashboard in _Bucket Settings > API Access_.
+4. Using the terminal, cd into your app, install dependancies, and start your app.
 ```
 cd cosmicapp-nuxt-fan-site
 yarn
