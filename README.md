@@ -17,7 +17,7 @@ cd cosmicapp-nuxt-fan-site
 yarn
 yarn dev
 ```
-Your fan site should now be running at `http://localhost:3000`! Go into your Cosmic dashboard and edit content to see it reflected on your application.
+Your fan site should now be running at `http://localhost:3000`! Go into your Cosmic dashboard and edit content to see it reflected on your application. Follow the steps below to add content from scratch and learn more about this application.
 
 ## Adding Content to Cosmic
 
